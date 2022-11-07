@@ -14,7 +14,7 @@ const Page = () => {
       <h1>Projects</h1>
       <div className={styles.languagesRow}>
       <button onClick={()=>filterProjects("")} data-animation="fade-in" className={styles.languageButton}>
-          Allc
+          All
         </button>
         <button onClick={()=>filterProjects("React")} data-animation="fade-in" className={styles.languageButton}>
           React
@@ -41,9 +41,9 @@ const Page = () => {
                   <h2>{project.title}</h2>
                   <h3>{project.technology}</h3>
                   <div className={styles.flex}>
-                    <button className={styles.projectButton}>
-                      View Project
-                    </button>
+                    <a href={project.githubUrl} className={styles.projectButton}  >
+                      View Project 
+                    </a>
                   </div>
                 </div>
               </div>

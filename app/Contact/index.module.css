@@ -44,9 +44,16 @@
   transition: 0.3s ease-in;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:716px) {
   .form
   {
     width: 90%;
   }
+}
+@media screen and (max-width:1200px) {
+  .form
+  {
+    width: 50%;
+  }
+
 }
