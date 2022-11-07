@@ -1,9 +1,10 @@
+'use client'
 import { Grid } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
 import { projects } from "../../exportsArrays/index";
 const Page = () => {
- const [projectsToMap, setProjectsToMap] = React.useState(projects);
+ const [projectsToMap, setProjectsToMap] =useState(projects);
   function filterProjects(technology) {
     const filteredProjects = projects.filter((project) => project.technology.includes(technology));
     setProjectsToMap(filteredProjects);
@@ -13,7 +14,7 @@ const Page = () => {
       <h1>Projects</h1>
       <div className={styles.languagesRow}>
       <button onClick={()=>filterProjects("")} data-animation="fade-in" className={styles.languageButton}>
-          All
+          Allc
         </button>
         <button onClick={()=>filterProjects("React")} data-animation="fade-in" className={styles.languageButton}>
           React

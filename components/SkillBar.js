@@ -1,7 +1,7 @@
 import React from "react";
-import { skills } from "../exportsArrays/index";
+import { skills } from "../exportsArrays/index.js";
 import SkillBar from "react-skillbars";
-import { colors } from "../exportsArrays/index";
+import { colors } from "../exportsArrays/index.js";
 const SkillBarComponent = () => {
   return (
     <SkillBar

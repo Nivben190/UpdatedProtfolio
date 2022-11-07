@@ -1,9 +1,9 @@
+'use client'
 import React from "react";
-import Hexagon from "react-hexagon";
 import styles from "./index.module.css";
 import nivPhoto from "../../images/niv.jpeg";
 import Image from "next/image";
-import SkillBarComponent from "../../components/SkillBar";
+import SkillBarComponent from "../../components/SkillBar.js";
 const Page = () => {
   return (
     <div className={styles.mainDiv}>

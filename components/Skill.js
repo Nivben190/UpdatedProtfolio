@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Skill.module.css";
 import Hexagon from "react-hexagon";
-import { BsChevronRight } from "react-icons/bs";
-
 const Skill = (props) => {
   return (
     <div className={styles.skillDiv}>
