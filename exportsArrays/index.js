@@ -66,3 +66,25 @@ export const colors = {
     background: "#00a1a7",
   },
 };
+export const softSkills = [
+  {
+    title: "Team Player",
+    description:
+      "I am always ready to help others and I am always ready to learn from others.",
+  },
+  {
+    title: "Problem Solver",
+    description:
+      "I love to solve problems and I love to find solutions to problems.",
+  },
+  {
+    title: "Creative Thinker",
+    description:
+      "I love to think outside the box and I love to come up with new ideas.I Can Blow Your Mind ...",
+  },
+  {
+    title: "Fast Adaptable",
+    description:
+      "I can adapt to any situation And Learn Any Language You Will Need Me To .",
+  },
+];

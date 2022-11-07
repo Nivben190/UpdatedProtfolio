@@ -12,6 +12,7 @@ const Page = () => {
   return (
     <div className={styles.mainDiv}>
       <h1>Projects</h1>
+      <div className={styles.border}></div>
       <div className={styles.languagesRow}>
       <button onClick={()=>filterProjects("")} data-animation="fade-in" className={styles.languageButton}>
           All
