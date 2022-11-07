@@ -1,0 +1,66 @@
+.bgGifImg {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/firstBg.gif");
+  background-color: #0070f3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+.centerDiv {
+  font-family: "Raleway";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.nameH1 {
+  font-size: 3rem;
+  margin-bottom: -2rem;
+}
+.fullstackH1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.redName {
+  color: #ff0000;
+  font-weight: 400;
+}
+.btn {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: lighter;
+}
+.btn:hover {
+  background-color: rgb(147, 145, 145);
+  transition: all 0.6s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .centerDiv 
+  {
+    width: 100%;
+  }
+  .nameH1 {
+    margin-bottom: -5%;
+    font-size: 2rem;
+  }
+  .fullstackH1 {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }  
+}

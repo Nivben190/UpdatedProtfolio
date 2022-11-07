@@ -1,0 +1,102 @@
+.mainDiv {
+  background-color: #f0f0f0;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  height: fit-content;
+}
+.mainDiv h1 {
+  font-size: 3.5em;
+  margin-top: 10%;
+  font-family: "raleway-bold";
+  text-align: center;
+  color: #444649;
+}
+.languagesRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+.languagesRow button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.projectDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: fit-content;
+  width: 80%;
+}
+.projectDetailes {
+  opacity: 0;
+  transition: opacity 0.5s;
+  margin: 0;
+}
+.projectCard {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 390px;
+  margin: -2.7%;
+}
+.projectCard:hover .projectDetailes {
+  transition: 0.7s ease-in-out;
+  background-color: whitesmoke;
+  height: 100%;
+  opacity: 1;
+}
+.projectCard:hover {
+  transition: 1.2s;
+  background-image: none;
+  background-color: whitesmoke;
+}
+.projectDiv h2 {
+  padding-top: 20%;
+  margin-bottom: -4%;
+  text-align: center;
+}
+.projectDiv h3 {
+  margin-bottom: 5%;
+  color: red;
+  text-align: center;
+  font-weight: 100;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.projectDiv button {
+  width: 170px;
+  height: 44px;
+  border: 1px solid #e31b6d;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 100;
+  margin-top: 5%;
+  background-color: transparent;
+  margin-bottom: 5%;
+}
+.projectDiv button:hover {
+  transition: 0.5s;
+  background-color: #e31b6d;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .projectCard {
+    margin-bottom: -6%;
+    width: 100%;
+  }
+  .projectDiv {
+    margin-bottom: 10%;
+    width: 100%;
+  }
+}

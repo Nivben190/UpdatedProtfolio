@@ -1,0 +1,22 @@
+.Hexagon {
+  width: 120px;
+  height: 120px;
+}
+.skillDiv {
+  width: 212px;
+  text-align: center;
+}
+
+.skillDiv h1 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin: 0, 5px;
+  padding: 0;
+}
+.skillDiv p {
+  color: black;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
