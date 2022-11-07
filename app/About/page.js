@@ -31,7 +31,7 @@ const AboutPage = () => {
       <h1 className={styles.header}>About</h1>
       <Grid container justifyContent="center">
         {skills.map((skill, index) => (
-          <Grid item xs={6} sm={6} md={2} key={index} align="center">
+          <Grid item xs={6} sm={6} md={6} lg={2} key={index} align="center">
             <Skill
               key={index}
               title={skill.title}

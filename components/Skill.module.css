@@ -5,6 +5,7 @@
 .skillDiv {
   width: 212px;
   text-align: center;
+  margin-top: 5%;
 }
 
 .skillDiv h1 {
@@ -19,4 +20,16 @@
   font-weight: 100;
   margin: 0;
   padding: 0;
+}
+@media screen  and (max-width:1000px){
+  .skillDiv {
+    width: 150px;
+  }
+  .skillDiv h1 {
+    font-size: 1em;
+  }
+  .skillDiv p {
+    font-size: 0.8em;
+  }
+   
 }

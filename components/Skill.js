@@ -9,7 +9,6 @@ const Skill = (props) => {
         className={styles.Hexagon}
       ></Hexagon>
       <h1>{props.title}</h1>
-
       <p>{props.desc}</p>
     </div>
   );
